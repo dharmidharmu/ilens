@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".search">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_white">
+
+
+        <ImageButton
+            android:id="@+id/searchbut"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="305dp"
+            android:layout_marginTop="300dp"
+            android:background="@drawable/background_white1"
+            android:src="@drawable/cameranew" />
+
+
+    </LinearLayout>
+
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/ic_drawable_grey1"
+        android:hint="product Name"
+        android:textAllCaps="false"
+        android:textColor="#000000" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="355dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rec_gradient_page2"
+        android:text="Search"
+        android:textAllCaps="false"
+        android:textColor="#FFF" />
+
+    <ImageView
+        android:id="@+id/iv_main"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/search"/>
+
+</RelativeLayout>
